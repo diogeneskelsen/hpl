@@ -20,10 +20,14 @@ To start the containers on Docker, please execute on the terminal the command:
 docker compose -f "docker-compose.yml" up -d --build
 ```
 
+![Docker](https://github.com/diogeneskelsen/hpl/blob/main/docs/docker.png?raw=true)
+
 # Additional documentation
 The GraphQL API has an implementation of [GraphQL Playground](https://github.com/graphql/graphql-playground) which allows to access API documentation and Schema details.
 
 With the Docker containers up and running access the documentation at: http://127.0.0.1:3001/playground
+
+![Documentation](https://github.com/diogeneskelsen/hpl/blob/main/docs/graphql_doc.png?raw=true)
 
 # Dependencies
 
@@ -106,6 +110,8 @@ To run the backend test suite (Docker containers must be running):
 cd backend
 npm run test
 ```
+
+![Tests](https://github.com/diogeneskelsen/hpl/blob/main/docs/tests.png?raw=true)
 
 # Roadmap
 
