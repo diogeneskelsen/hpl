@@ -76,6 +76,8 @@ cd frontend
 npm install
 ```
 
+![Frontend](https://github.com/diogeneskelsen/hpl/blob/main/docs/frontend_app.png?raw=true)
+
 # Docker
 
 There is Docker support via `docker-compose.yml` in the root folder of the project. Please use Docker to run this project locally on your computer.
@@ -124,6 +126,7 @@ This section provides a description of features that were decided to be prioriti
 * Add tests in the frontend application.
 * Add more fields and entities to the backend application.
 - Frontend application can be improved in terms of design.
+- Add technical comments in the code.
 
 ## 1.0.0 (current version)
 ### General
