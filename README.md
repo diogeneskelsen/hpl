@@ -6,22 +6,6 @@ The frontend is a very simple application created using React and Material UI an
 
 This project was created in the timeframe of 4 hours and some additional minutes were used to document the project.
 
-# Docker
-
-There is Docker support via `docker-compose.yml` in the root folder of the project. Please use Docker to run this project locally on your computer.
-
-The existent configuration has 3 containers as described:
-- `backend` runs the GraphQL API service at http://localhost:3001/graphql.
-- `frontend` runs the React client at http://localhost:3000/
-- `db` runs a basic Postgres database service on port 5433.
-
-To start the containers on Docker, please execute on the terminal the command:
-```
-docker compose -f "docker-compose.yml" up -d --build
-```
-
-![Docker](https://github.com/diogeneskelsen/hpl/blob/main/docs/docker.png?raw=true)
-
 # Additional documentation
 The GraphQL API has an implementation of [GraphQL Playground](https://github.com/graphql/graphql-playground) which allows to access API documentation and Schema details.
 
@@ -91,6 +75,22 @@ All dependencies are defined at `./frontend/package.json`. To install the fronte
 cd frontend
 npm install
 ```
+
+# Docker
+
+There is Docker support via `docker-compose.yml` in the root folder of the project. Please use Docker to run this project locally on your computer.
+
+The existent configuration has 3 containers as described:
+- `backend` runs the GraphQL API service at http://localhost:3001/graphql.
+- `frontend` runs the React client at http://localhost:3000/
+- `db` runs a basic Postgres database service on port 5433.
+
+To start the containers on Docker, please execute on the terminal the command:
+```
+docker compose -f "docker-compose.yml" up -d --build
+```
+
+![Docker](https://github.com/diogeneskelsen/hpl/blob/main/docs/docker.png?raw=true)
 
 # Tests
 
